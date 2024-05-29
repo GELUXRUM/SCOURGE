@@ -1,0 +1,14 @@
+{
+  "name": "GLXRM_SCOURGE",
+  "version-string": "1.0.0",
+  "description": "Fallout 4 stat overhaul plugin written in C++",
+  "homepage": "https://github.com/GELUXRUM/SCOURGE",
+  "license": "GPLv3",
+  "dependencies": [
+    "boost-stl-interfaces",
+    "fmt",
+    "rsm-mmio",
+    "spdlog",
+    "yaml-cpp"
+  ]
+}
