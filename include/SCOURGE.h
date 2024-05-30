@@ -77,7 +77,7 @@ private:
 	// grabs the exclusion Keywords used in SCOURGE
 	void GetKeywords(RE::TESDataHandler* a_dataHandler)
 	{
-		kw_All			  = a_dataHandler->LookupForm<RE::BGSKeyword>(0x101, "SCOURGE.esp");
+		kw_All			  = a_dataHandler->LookupForm<RE::BGSKeyword>(0x100, "SCOURGE.esp");
 		kw_DamageResist	  = a_dataHandler->LookupForm<RE::BGSKeyword>(0x101, "SCOURGE.esp");
 		kw_ElectricResist = a_dataHandler->LookupForm<RE::BGSKeyword>(0x102, "SCOURGE.esp");
 		kw_EnergyResist   = a_dataHandler->LookupForm<RE::BGSKeyword>(0x103, "SCOURGE.esp");
